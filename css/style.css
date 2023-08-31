@@ -273,6 +273,7 @@ h4 {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 24px;
+  cursor: pointer;
 } /**/
 .customers-icon {
   fill: var(--light-slate);
@@ -283,20 +284,14 @@ h4 {
 }
 .customers-icon:hover {
   fill: var(--ocean);
-  border: 1px solid var(--iris);
-  cursor: pointer;
+  border: 1px solid var(--ocean);
 }
-.customers-list-item {
+/*.customers-list-item {
   display: block;
   width: 168px;
   height: 88px;
-}
+}*/
 
-.customers-list-item:hover,
-.customers-list-item:focus {
-  fill: var(--ocean);
-  border: 1px solid var(--ocean);
-}
 .sm-list {
   display: flex;
   justify-content: center;
